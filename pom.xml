@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.modelinglab</groupId>
+        <artifactId>general-parent</artifactId>
+        <version>1.0.8</version>
+    </parent>
+
+    <groupId>org.modelinglab.utils.serialize</groupId>
+    <artifactId>java</artifactId>
+    <version>1.0.4-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>ML Serialize Utils Java</name>
+    
+    <scm>
+        <developerConnection>scm:svn:svn+ssh://software.imdea.org/srv/svn/mda/code/maven/main-tools/utils/java/core/trunk</developerConnection>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.modelinglab.utils.serialize</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0.4-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
