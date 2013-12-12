@@ -9,7 +9,7 @@
 
     <groupId>org.modelinglab.utils.serialize</groupId>
     <artifactId>java</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ML Serialize Utils Java</name>
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.modelinglab.utils.serialize</groupId>
             <artifactId>core</artifactId>
-            <version>1.0.4</version>
+            <version>1.0.5-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
