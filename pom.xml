@@ -4,15 +4,19 @@
     <parent>
         <groupId>org.modelinglab</groupId>
         <artifactId>general-parent</artifactId>
-        <version>5-SNAPSHOT</version>
+        <version>5</version>
     </parent>
 
     <groupId>org.modelinglab.utils.serialize</groupId>
     <artifactId>java</artifactId>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.5</version>
     <packaging>jar</packaging>
 
     <name>ML Serialize Utils Java</name>
+    
+    <properties>
+        <utils.version>1.0.5</utils.version>
+    </properties>
     
     <scm>
         <developerConnection>scm:git:ssh://github.com/modelinglab/serialize-java.git</developerConnection>
@@ -28,7 +32,7 @@
         <dependency>
             <groupId>org.modelinglab.utils.serialize</groupId>
             <artifactId>core</artifactId>
-            <version>1.0.5-SNAPSHOT</version>
+            <version>${utils.version}</version>
         </dependency>
     </dependencies>
 </project>
